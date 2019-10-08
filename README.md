@@ -1,3 +1,5 @@
+# UEFI mode require X64(64 Bit) OS
+
 # CMD setup mOS 18.04 X86 MDEC
 ```
 apt install git -y && \
