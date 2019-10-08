@@ -1,6 +1,6 @@
-## UEFI mode require X64(64 Bit) OS
+- UEFI mode require X64(64 Bit) OS
 
-## CMD setup mOS 18.04 X86 MDEC
+- CMD setup mOS 18.04 X86 MDEC
 ```
 apt install git -y && \
 git clone https://github.com/mscits/mOS-18.04-X86-MDEC.git /tmp/mOS-18.04-X86/ && \
