@@ -1,4 +1,4 @@
-## UEFI mode require 64 Bit OS
+## UEFI mode require 64bit OS
 
 - CMD setup mOS 18.04 X86 MDEC
 ```
