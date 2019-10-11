@@ -21,3 +21,10 @@ git clone https://github.com/mscits/Setup-VPNmOS02.git /tmp/Setup-VPNmOS02/ && \
 chmod +x /tmp/Setup-VPNmOS02/setup.sh && \
 sh /tmp/Setup-VPNmOS02/setup.sh
 ```
+- Setup AnyDesk X64
+```
+apt install git -y && \
+git clone https://github.com/mscits/Setup-AnyDesk-X64.git /tmp/Setup-AnyDesk-X64/ && \
+chmod +x /tmp/Setup-AnyDesk-X64/setup.sh && \
+sh /tmp/Setup-AnyDesk-X64/setup.sh
+```
