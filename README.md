@@ -1,5 +1,12 @@
 ## UEFI mode require 64 bit OS
 
+- CMD setup mOS 18.04 X64 with VPN mOS 02
+```
+apt install git -y && \
+git clone https://github.com/mscits/mOS-18.04-X64-VPNmOS02.git /tmp/mOS-18.04-X64-VPNmOS02/ && \
+chmod +x /tmp/mOS-18.04-X64-VPNmOS02/setup.sh && \
+sh /tmp/mOS-18.04-X64-VPNmOS02/setup.sh
+```
 - CMD setup mOS 18.04 X64
 ```
 apt install git -y && \
