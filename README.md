@@ -36,7 +36,7 @@ chmod +x /tmp/Setup-AnyDesk-X64/setup.sh && \
 sh /tmp/Setup-AnyDesk-X64/setup.sh
 ```
 - Enable Wifi auto start on mOS LocalDisk
+  - Remove line @/usr/bin/nmcli radio wifi off
 ```
 nano /home/mosuser/.config/lxsession/Lubuntu/autostart
 ```
-  - Remove line @/usr/bin/nmcli radio wifi off
