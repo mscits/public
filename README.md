@@ -39,3 +39,4 @@ sh /tmp/Setup-AnyDesk-X64/setup.sh
 ```
 nano /home/mosuser/.config/lxsession/Lubuntu/autostart
 ```
+  - Remove line @/usr/bin/nmcli radio wifi off
