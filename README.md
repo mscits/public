@@ -35,3 +35,7 @@ git clone https://github.com/mscits/Setup-AnyDesk-X64.git /tmp/Setup-AnyDesk-X64
 chmod +x /tmp/Setup-AnyDesk-X64/setup.sh && \
 sh /tmp/Setup-AnyDesk-X64/setup.sh
 ```
+- Enable Wifi auto start on mOS LocalDisk
+```
+nano /home/mosuser/.config/lxsession/Lubuntu/autostart
+```
