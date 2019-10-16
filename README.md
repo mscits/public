@@ -47,3 +47,4 @@ git clone https://github.com/mscits/Setup-Barrier-X64.git /tmp/Setup-Barrier-X64
 chmod +x /tmp/Setup-Barrier-X64/setup.sh && \
 sh /tmp/Setup-Barrier-X64/setup.sh
 ```
+https://itsfoss.com/keyboard-mouse-sharing-between-computers/
