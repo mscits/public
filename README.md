@@ -49,9 +49,8 @@ nano /home/mosuser/.config/lxsession/Lubuntu/autostart
 ```
 - Setup Barrier X64
 ```
-apt install git -y && \
-git clone https://github.com/mscits/Setup-Barrier-X64.git /tmp/Setup-Barrier-X64/ && \
-chmod +x /tmp/Setup-Barrier-X64/setup.sh && \
-sh /tmp/Setup-Barrier-X64/setup.sh
+sudo apt install snapd && \
+sudo snap install barrier --edge && \
+reboot
 ```
 https://itsfoss.com/keyboard-mouse-sharing-between-computers/
