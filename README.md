@@ -40,3 +40,10 @@ sh /tmp/Setup-AnyDesk-X64/setup.sh
 ```
 nano /home/mosuser/.config/lxsession/Lubuntu/autostart
 ```
+- Setup Barrier X64
+```
+apt install git -y && \
+git clone https://github.com/mscits/Setup-Barrier-X64.git /tmp/Setup-Barrier-X64/ && \
+chmod +x /tmp/Setup-Barrier-X64/setup.sh && \
+sh /tmp/Setup-Barrier-X64/setup.sh
+```
