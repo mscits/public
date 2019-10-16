@@ -1,25 +1,32 @@
 ## UEFI mode require 64 bit OS
 
-- CMD setup mOS 18.04 X64 with VPN mOS 02
+- CMD setup mOS 18.04 X64 LTS with VPN mOS 02
 ```
 apt install git -y && \
 git clone https://github.com/mscits/mOS-18.04-X64-VPNmOS02.git /tmp/mOS-18.04-X64-VPNmOS02/ && \
 chmod +x /tmp/mOS-18.04-X64-VPNmOS02/setup.sh && \
 sh /tmp/mOS-18.04-X64-VPNmOS02/setup.sh
 ```
-- CMD setup mOS 18.04 X64
+- CMD setup mOS 18.04 X64 LTS
 ```
 apt install git -y && \
 git clone https://github.com/mscits/mOS-18.04-X64.git /tmp/mOS-18.04-X64/ && \
 chmod +x /tmp/mOS-18.04-X64/setup.sh && \
 sh /tmp/mOS-18.04-X64/setup.sh
 ```
-- CMD setup mOS 18.04 X86
+- CMD setup mOS 18.04 X86 LTS
 ```
 apt install git -y && \
 git clone https://github.com/mscits/mOS-18.04-X86.git /tmp/mOS-18.04-X86/ && \
 chmod +x /tmp/mOS-18.04-X86/setup.sh && \
 sh /tmp/mOS-18.04-X86/setup.sh
+```
+- CMD setup mOS 19.04 X64
+```
+apt install git -y && \
+git clone https://github.com/mscits/mOS-19.04-X64.git /tmp/mOS-19.04-X64/ && \
+chmod +x /tmp/mOS-19.04-X64/setup.sh && \
+sh /tmp/mOS-19.04-X64/setup.sh
 ```
 - Setup VPN mOS 02
 ```
