@@ -47,13 +47,12 @@ sh /tmp/Setup-AnyDesk-X64/setup.sh
 ```
 nano /home/mosuser/.config/lxsession/Lubuntu/autostart
 ```
-- Setup Barrier X64
+- Setup Barrier X64 --> https://itsfoss.com/keyboard-mouse-sharing-between-computers/
 ```
 sudo apt install snapd -y && \
 sudo snap install barrier --edge && \
 sudo reboot
 ```
-https://itsfoss.com/keyboard-mouse-sharing-between-computers/
 
 - Enable Ubuntu 16.04 Repo
 ```
