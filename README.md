@@ -68,3 +68,6 @@ deb http://mirror1.totbb.net/ubuntu/ xenial-security main restricted universe mu
 deb http://mirror1.totbb.net/ubuntu/ xenial-updates main restricted universe multiverse 
 deb http://mirror1.totbb.net/ubuntu/ xenial-backports main restricted universe multiverse 
 ```
+```
+sudo apt update -y
+```
