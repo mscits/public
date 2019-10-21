@@ -54,3 +54,16 @@ sudo snap install barrier --edge && \
 sudo reboot
 ```
 https://itsfoss.com/keyboard-mouse-sharing-between-computers/
+
+- Enable Ubuntu 16.04 Repo
+```
+sudo nano /etc/apt/sources.list
+
+###### Ubuntu Main Repos
+deb http://mirror1.totbb.net/ubuntu/ xenial main restricted universe multiverse 
+
+###### Ubuntu Update Repos
+deb http://mirror1.totbb.net/ubuntu/ xenial-security main restricted universe multiverse 
+deb http://mirror1.totbb.net/ubuntu/ xenial-updates main restricted universe multiverse 
+deb http://mirror1.totbb.net/ubuntu/ xenial-backports main restricted universe multiverse 
+```
