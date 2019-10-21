@@ -58,7 +58,9 @@ https://itsfoss.com/keyboard-mouse-sharing-between-computers/
 - Enable Ubuntu 16.04 Repo
 ```
 sudo nano /etc/apt/sources.list
+```
 
+```
 ###### Ubuntu Main Repos
 deb http://mirror1.totbb.net/ubuntu/ xenial main restricted universe multiverse 
 
