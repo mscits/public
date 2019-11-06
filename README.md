@@ -28,7 +28,7 @@ git clone https://github.com/mscits/mOS-19.04-X64.git /tmp/mOS-19.04-X64/ && \
 chmod +x /tmp/mOS-19.04-X64/setup.sh && \
 sh /tmp/mOS-19.04-X64/setup.sh
 ```
-- Setup VPN mOS 02
+- CMD Setup VPN mOS 02
 ```
 apt install git -y && \
 git clone https://github.com/mscits/Setup-VPNmOS02.git /tmp/Setup-VPNmOS02/ && \
@@ -36,7 +36,7 @@ chmod +x /tmp/Setup-VPNmOS02/setup.sh && \
 sh /tmp/Setup-VPNmOS02/setup.sh
 ```
 ## Other
-- Setup AnyDesk X64
+- CMD Setup AnyDesk X64
 ```
 apt install git -y && \
 git clone https://github.com/mscits/Setup-AnyDesk-X64.git /tmp/Setup-AnyDesk-X64/ && \
@@ -48,7 +48,7 @@ sh /tmp/Setup-AnyDesk-X64/setup.sh
 ```
 nano /home/mosuser/.config/lxsession/Lubuntu/autostart
 ```
-- Setup Barrier X64 --> https://itsfoss.com/keyboard-mouse-sharing-between-computers/
+- CMD Setup Barrier X64 --> https://itsfoss.com/keyboard-mouse-sharing-between-computers/
 ```
 sudo apt install snapd -y && \
 sudo snap install barrier --edge && \
