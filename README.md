@@ -74,10 +74,10 @@ sudo apt update -y
 ```
 - Setup USB Over Network
 ```
-apt install git -y && \
-git clone https://github.com/mscits/Setup-USB-Over-Network-X64.git /tmp/Setup-USB-Over-Network-X64/ && \
-chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
-sh /tmp/Setup-USB-Over-Network-X64/setup.sh
+sudo apt install git -y && \
+sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64.git /tmp/Setup-USB-Over-Network-X64/ && \
+sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
+sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
 ```
 ## K8S Series
 - Setup Ubuntu 18.04 K8S HAProxy
