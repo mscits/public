@@ -71,3 +71,11 @@ deb http://mirror1.totbb.net/ubuntu/ xenial-backports main restricted universe m
 ```
 sudo apt update -y
 ```
+***
+- Setup Ubuntu 18.04 K8S HAProxy
+```
+apt install git -y && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-HAProxy.git /tmp/Setup-Ubuntu18.04-K8S-HAProxy/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-K8S-HAProxy/setup.sh && \
+sh /tmp/Setup-Ubuntu18.04-K8S-HAProxy/setup.sh
+```
