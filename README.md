@@ -36,6 +36,14 @@ git clone https://github.com/mscits/mOS-19.04-X64.git /tmp/mOS-19.04-X64/ && \
 chmod +x /tmp/mOS-19.04-X64/setup.sh && \
 sh /tmp/mOS-19.04-X64/setup.sh
 ```
+## Other
+- CMD Setup TeamViewer X64
+```
+apt install git -y && \
+git clone https://github.com/mscits/Setup-TeamViewer-X64.git /tmp/Setup-TeamViewer-X64/ && \
+chmod +x /tmp/Setup-TeamViewer-X64/setup.sh && \
+sh /tmp/Setup-TeamViewer-X64/setup.sh
+```
 - CMD Setup VPN mOS 02
 ```
 apt install git -y && \
@@ -43,7 +51,6 @@ git clone https://github.com/mscits/Setup-VPNmOS02.git /tmp/Setup-VPNmOS02/ && \
 chmod +x /tmp/Setup-VPNmOS02/setup.sh && \
 sh /tmp/Setup-VPNmOS02/setup.sh
 ```
-## Other
 - CMD Setup AnyDesk X64
 ```
 apt install git -y && \
