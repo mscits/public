@@ -1,6 +1,6 @@
 ## UEFI mode require 64 bit OS
 
-- CMD setup mOS 18.04 X64 LTS
+- CMD setup mOS 18.04 <span style="color:red">X64</span> LTS
 ```
 apt install git -y && \
 git clone https://github.com/mscits/mOS-18.04-X64-LTS.git /tmp/mOS-18.04-X64-LTS/ && \
