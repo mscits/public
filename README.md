@@ -1,12 +1,5 @@
 ## UEFI mode require 64 bit OS
 
-- CMD setup mOS 18.04 X64 LTS with VPN mOS 02
-```
-apt install git -y && \
-git clone https://github.com/mscits/mOS-18.04-X64-LTS-VPNmOS02.git /tmp/mOS-18.04-X64-LTS-VPNmOS02/ && \
-chmod +x /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh && \
-sh /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh
-```
 - CMD setup mOS 18.04 X64 LTS
 ```
 apt install git -y && \
@@ -14,6 +7,21 @@ git clone https://github.com/mscits/mOS-18.04-X64-LTS.git /tmp/mOS-18.04-X64-LTS
 chmod +x /tmp/mOS-18.04-X64-LTS/setup.sh && \
 sh /tmp/mOS-18.04-X64-LTS/setup.sh
 ```
+- CMD setup mOS 18.04 X64 LTS with TeamViewer
+```
+apt install git -y && \
+git clone https://github.com/mscits/mOS-18.04-X64-LTS-TeamViewer.git /tmp/mOS-18.04-X64-LTS-TeamViewer/ && \
+chmod +x /tmp/mOS-18.04-X64-LTS-TeamViewer/setup.sh && \
+sh /tmp/mOS-18.04-X64-LTS-TeamViewer/setup.sh
+```
+- CMD setup mOS 18.04 X64 LTS with VPN mOS 02
+```
+apt install git -y && \
+git clone https://github.com/mscits/mOS-18.04-X64-LTS-VPNmOS02.git /tmp/mOS-18.04-X64-LTS-VPNmOS02/ && \
+chmod +x /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh && \
+sh /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh
+```
+
 - CMD setup mOS 18.04 X86 LTS
 ```
 apt install git -y && \
