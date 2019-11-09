@@ -102,7 +102,7 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-HAProxy.git /tmp/Setup
 chmod +x /tmp/Setup-Ubuntu18.04-K8S-HAProxy/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04-K8S-HAProxy/setup.sh
 ```
-- Setup Ubuntu 18.04 K8S Master
+- Setup Ubuntu 18.04 K8S Master Single
 ```
 sudo apt install git -y && \
 git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-Ubuntu18.04-K8S-Master/ && \
