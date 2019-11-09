@@ -109,3 +109,10 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-
 chmod +x /tmp/Setup-Ubuntu18.04-K8S-Master/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04-K8S-Master/setup.sh
 ```
+- Setup Ubuntu 18.04 K8S HA Master
+```
+sudo apt install git -y && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-Ubuntu18.04-K8S-Master/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked.sh && \
+sh /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked.sh
+```
