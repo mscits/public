@@ -104,7 +104,7 @@ sh /tmp/Setup-Ubuntu18.04-K8S-HAProxy/setup.sh
 ```
 - Setup Ubuntu 18.04 K8S Master
 ```
-apt install git -y && \
+sudo apt install git -y && \
 git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-Ubuntu18.04-K8S-Master/ && \
 chmod +x /tmp/Setup-Ubuntu18.04-K8S-Master/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04-K8S-Master/setup.sh
