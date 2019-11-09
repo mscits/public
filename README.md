@@ -95,14 +95,14 @@ sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
 ```
 ## K8S Series
-- Setup Ubuntu 18.04 K8S HAProxy
+- Setup Ubuntu 18.04 K8S HAProxy(Recommend use pfSene+HAProxy)
 ```
 apt install git -y && \
 git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-HAProxy.git /tmp/Setup-Ubuntu18.04-K8S-HAProxy/ && \
 chmod +x /tmp/Setup-Ubuntu18.04-K8S-HAProxy/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04-K8S-HAProxy/setup.sh
 ```
-- Setup Ubuntu 18.04 K8S Master Single
+- Setup Ubuntu 18.04 K8S Master Single Node
 ```
 sudo apt install git -y && \
 git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-Ubuntu18.04-K8S-Master/ && \
@@ -122,4 +122,11 @@ sudo apt install git -y && \
 git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-Ubuntu18.04-K8S-Master/ && \
 chmod +x /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked-additional.sh && \
 sh /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked-additional.sh
+```
+- Setup Ubuntu 18.04 K8S Worker Node
+```
+sudo apt install git -y && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Worker.git /tmp/Setup-Ubuntu18.04-K8S-Worker/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-K8S-Worker/setup.sh && \
+sh /tmp/Setup-Ubuntu18.04-K8S-Worker/setup.sh
 ```
