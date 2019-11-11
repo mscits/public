@@ -123,6 +123,13 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-
 chmod +x /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked-additional.sh && \
 sh /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked-additional.sh
 ```
+- Setup Ubuntu 18.04 K8S HA Master Additional Node(Automate)
+```
+sudo apt install git -y && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Master.git /tmp/Setup-Ubuntu18.04-K8S-Master/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked-additional-automate.sh && \
+sh /tmp/Setup-Ubuntu18.04-K8S-Master/setup-ha-stacked-additional-automate.sh
+```
 - Setup Ubuntu 18.04 K8S Worker Node
 ```
 sudo apt install git -y && \
