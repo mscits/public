@@ -152,3 +152,11 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Worker.git /tmp/Setup-
 chmod +x /tmp/Setup-Ubuntu18.04-K8S-Worker/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04-K8S-Worker/setup.sh
 ```
+- Setup Ubuntu 18.04 K8S Worker Node(Automate)
+```
+sudo apt install git -y && \
+rm -rf /tmp/Setup-Ubuntu18.04-K8S-Worker/ && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-K8S-Worker.git /tmp/Setup-Ubuntu18.04-K8S-Worker/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-K8S-Worker/setup-automate.sh && \
+sh /tmp/Setup-Ubuntu18.04-K8S-Worker/setup-automate.sh
+```
