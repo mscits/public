@@ -98,7 +98,7 @@ sudo apt update -y
 - Setup USB Over Network
 ```
 sudo apt install git -y && \
-rm -rf /tmp/Setup-USB-Over-Network-X64/ && \
+sudo rm -rf /tmp/Setup-USB-Over-Network-X64/ && \
 sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64.git /tmp/Setup-USB-Over-Network-X64/ && \
 sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
