@@ -42,6 +42,14 @@ chmod +x /tmp/mOS-19.04-X64/setup.sh && \
 sh /tmp/mOS-19.04-X64/setup.sh
 ```
 ## Other
+- Setup Conky
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Conky/ && \
+git clone https://github.com/mscits/Setup-Conky.git /tmp/Setup-Conky/ && \
+chmod +x /tmp/Setup-Conky/setup.sh && \
+sh /tmp/Setup-Conky/setup.sh
+```
 - CMD Setup TeamViewer X64
 ```
 apt install git -y && \
@@ -103,14 +111,7 @@ sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64.git /tmp/Set
 sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
 ```
-- Setup Conky
-```
-sudo apt install git -y && \
-sudo rm -rf /tmp/Setup-Conky/ && \
-sudo git clone https://github.com/mscits/Setup-Conky.git /tmp/Setup-Conky/ && \
-sudo chmod +x /tmp/Setup-Conky/setup.sh && \
-sudo sh /tmp/Setup-Conky/setup.sh
-```
+
 ## K8S Series
 - Setup Ubuntu 18.04 K8S HAProxy(Recommend use pfSene+HAProxy)
 ```
