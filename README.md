@@ -50,6 +50,20 @@ git clone https://github.com/mscits/Setup-Conky.git /tmp/Setup-Conky/ && \
 chmod +x /tmp/Setup-Conky/setup.sh && \
 sh /tmp/Setup-Conky/setup.sh
 ```
+- Config Default boot to Windows
+```
+sed -i '6s/GRUB_DEFAULT=0/GRUB_DEFAULT=2/' /etc/default/grub
+update-grub
+sed -i '131s/Ubuntu/mOS-18.04-X64-LTS/' /boot/grub/grub.cfg
+sed -i '148s/Ubuntu/mOS-18.04-X64-LTS/' /boot/grub/grub.cfg
+```
+- Config Default boot to mOS
+```
+sed -i '6s/GRUB_DEFAULT=2/GRUB_DEFAULT=0/' /etc/default/grub
+update-grub
+sed -i '131s/Ubuntu/mOS-18.04-X64-LTS/' /boot/grub/grub.cfg
+sed -i '148s/Ubuntu/mOS-18.04-X64-LTS/' /boot/grub/grub.cfg
+```
 - CMD Setup TeamViewer X64
 ```
 apt install git -y && \
