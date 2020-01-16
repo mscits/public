@@ -50,6 +50,13 @@ git clone https://github.com/mscits/Setup-Conky.git /tmp/Setup-Conky/ && \
 chmod +x /tmp/Setup-Conky/setup.sh && \
 sh /tmp/Setup-Conky/setup.sh
 ```
+- Setup FortiClient Free Antivirus
+```
+wget -O - https://repo.fortinet.com/repo/ubuntu/DEB-GPG-KEY | sudo apt-key add - && \
+deb [arch=amd64] https://repo.fortinet.com/repo/ubuntu/ /bionic multiverse && \
+sudo apt update && \
+sudo apt install forticlient -y
+```
 - Config Default boot to Windows
 ```
 sed -i '6s/GRUB_DEFAULT=0/GRUB_DEFAULT=2/' /etc/default/grub && \
