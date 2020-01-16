@@ -54,7 +54,7 @@ sh /tmp/Setup-Conky/setup.sh
 ```
 wget -O - https://repo.fortinet.com/repo/ubuntu/DEB-GPG-KEY | sudo apt-key add - && \
 deb [arch=amd64] https://repo.fortinet.com/repo/ubuntu/ /bionic multiverse && \
-sudo apt update && \
+sudo apt update -y && \
 sudo apt install forticlient -y
 ```
 - Config Default boot to Windows
