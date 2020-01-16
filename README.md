@@ -50,7 +50,7 @@ git clone https://github.com/mscits/Setup-Conky.git /tmp/Setup-Conky/ && \
 chmod +x /tmp/Setup-Conky/setup.sh && \
 sh /tmp/Setup-Conky/setup.sh
 ```
-- Setup FortiClient Free Antivirus
+- Setup FortiClient Free Antivirus (Ubuntu 18.04 LTS)
 ```
 wget -O - https://repo.fortinet.com/repo/ubuntu/DEB-GPG-KEY | sudo apt-key add - && \
 deb [arch=amd64] https://repo.fortinet.com/repo/ubuntu/ /bionic multiverse && \
