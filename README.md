@@ -42,6 +42,10 @@ chmod +x /tmp/mOS-19.04-X64/setup.sh && \
 sh /tmp/mOS-19.04-X64/setup.sh
 ```
 ## Other
+- Update mOS
+```
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
+```
 - Setup Conky
 ```
 apt install git -y && \
