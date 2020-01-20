@@ -41,6 +41,16 @@ git clone https://github.com/mscits/mOS-19.04-X64.git /tmp/mOS-19.04-X64/ && \
 chmod +x /tmp/mOS-19.04-X64/setup.sh && \
 sh /tmp/mOS-19.04-X64/setup.sh
 ```
+## DirectAdmin
+- Update DirectAdmin Configuration CentOS 7
+```
+yum install git -y && \
+rm -rf /tmp/Update-DA-Configuration-CentOS7/ && \
+git clone https://github.com/mscits/Update-DA-Configuration-CentOS7.git /tmp/Update-DA-Configuration-CentOS7/ && \
+chmod +x /tmp/Update-DA-Configuration-CentOS7/setup.sh && \
+sh /tmp/Update-DA-Configuration-CentOS7/setup.sh
+```
+
 ## Other
 - Update mOS
 ```
