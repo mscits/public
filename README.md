@@ -42,13 +42,21 @@ chmod +x /tmp/mOS-19.04-X64/setup.sh && \
 sh /tmp/mOS-19.04-X64/setup.sh
 ```
 ## DirectAdmin
-- Update DirectAdmin Configuration CentOS 7
+- Update DirectAdmin Configuration CentOS 7 LAB
 ```
 yum install git -y && \
-rm -rf /tmp/Update-DA-Configuration-CentOS7/ && \
-git clone https://github.com/mscits/Update-DA-Configuration-CentOS7.git /tmp/Update-DA-Configuration-CentOS7/ && \
-chmod +x /tmp/Update-DA-Configuration-CentOS7/setup.sh && \
-sh /tmp/Update-DA-Configuration-CentOS7/setup.sh
+rm -rf /tmp/Update-DA-Configuration-CentOS7-LAB/ && \
+git clone https://github.com/mscits/Update-DA-Configuration-CentOS7-LAB.git /tmp/Update-DA-Configuration-CentOS7-LAB/ && \
+chmod +x /tmp/Update-DA-Configuration-CentOS7-LAB/setup.sh && \
+sh /tmp/Update-DA-Configuration-CentOS7-LAB/setup.sh
+```
+- Update DirectAdmin Configuration CentOS 7 Production
+```
+yum install git -y && \
+rm -rf /tmp/Update-DA-Configuration-CentOS7-Production/ && \
+git clone https://github.com/mscits/Update-DA-Configuration-CentOS7-Production.git /tmp/Update-DA-Configuration-CentOS7-Production/ && \
+chmod +x /tmp/Update-DA-Configuration-CentOS7-Production/setup.sh && \
+sh /tmp/Update-DA-Configuration-CentOS7-Production/setup.sh
 ```
 
 ## Other
