@@ -25,22 +25,6 @@ chmod +x /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh && \
 sh /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh
 ```
 
-- CMD setup mOS 18.04 X86 LTS
-```
-apt install git -y && \
-rm -rf /tmp/mOS-18.04-X86-LTS/ && \
-git clone https://github.com/mscits/mOS-18.04-X86-LTS.git /tmp/mOS-18.04-X86-LTS/ && \
-chmod +x /tmp/mOS-18.04-X86-LTS/setup.sh && \
-sh /tmp/mOS-18.04-X86-LTS/setup.sh
-```
-- CMD setup mOS 19.04 X64
-```
-apt install git -y && \
-rm -rf /tmp/mOS-19.04-X64/ && \
-git clone https://github.com/mscits/mOS-19.04-X64.git /tmp/mOS-19.04-X64/ && \
-chmod +x /tmp/mOS-19.04-X64/setup.sh && \
-sh /tmp/mOS-19.04-X64/setup.sh
-```
 ## DirectAdmin
 - Update DirectAdmin Configuration CentOS 7 LAB
 ```
