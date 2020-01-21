@@ -59,7 +59,7 @@ chmod +x /tmp/Update-DA-Configuration-CentOS7-Production/setup.sh && \
 sh /tmp/Update-DA-Configuration-CentOS7-Production/setup.sh
 ```
 
-## Other
+## mOS & Ubuntu
 - Update mOS
 ```
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
@@ -128,24 +128,6 @@ sudo apt install snapd -y && \
 sudo snap install barrier --edge && \
 sudo reboot
 ```
-
-- Enable Ubuntu 16.04 Repo
-```
-sudo nano /etc/apt/sources.list
-```
-
-```
-###### Ubuntu Main Repos
-deb http://mirror1.totbb.net/ubuntu/ xenial main restricted universe multiverse 
-
-###### Ubuntu Update Repos
-deb http://mirror1.totbb.net/ubuntu/ xenial-security main restricted universe multiverse 
-deb http://mirror1.totbb.net/ubuntu/ xenial-updates main restricted universe multiverse 
-deb http://mirror1.totbb.net/ubuntu/ xenial-backports main restricted universe multiverse 
-```
-```
-sudo apt update -y
-```
 - Setup USB Over Network
 ```
 sudo apt install git -y && \
@@ -155,7 +137,7 @@ sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
 ```
 
-## K8S Series
+## K8S
 - Setup Ubuntu 18.04 K8S HAProxy(Recommend use pfSene+HAProxy)
 ```
 apt install git -y && \
