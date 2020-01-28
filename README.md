@@ -110,6 +110,7 @@ nano /home/mosuser/.config/lxsession/Lubuntu/autostart
 ```
 sudo apt install snapd -y && \
 sudo snap install barrier --edge && \
+echo '@/snap/bin/barrier %U' >> /home/mosuser/.config/lxsession/Lubuntu/autostart && \
 sudo reboot
 ```
 - Setup USB Over Network
