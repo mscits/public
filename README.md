@@ -113,13 +113,21 @@ sudo snap install barrier --edge && \
 echo '@/snap/bin/barrier %U' >> /home/mosuser/.config/lxsession/Lubuntu/autostart && \
 sudo reboot
 ```
-- Setup USB Over Network
+- Setup USB Over Network X64
 ```
 sudo apt install git -y && \
 sudo rm -rf /tmp/Setup-USB-Over-Network-X64/ && \
 sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64.git /tmp/Setup-USB-Over-Network-X64/ && \
 sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
+```
+- Setup USB Over Network X86
+```
+sudo apt install git -y && \
+sudo rm -rf /tmp/Setup-USB-Over-Network-X86/ && \
+sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X86.git /tmp/Setup-USB-Over-Network-X86/ && \
+sudo chmod +x /tmp/Setup-USB-Over-Network-X86/setup.sh && \
+sudo sh /tmp/Setup-USB-Over-Network-X86/setup.sh
 ```
 
 ## K8S
