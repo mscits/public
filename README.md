@@ -129,6 +129,13 @@ sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X86.git /tmp/Set
 sudo chmod +x /tmp/Setup-USB-Over-Network-X86/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X86/setup.sh
 ```
+- Remmina & FreeRDP Nightly Update Channel
+```
+sudo add-apt-repository ppa:remmina-ppa-team/remmina-next-daily -y && \
+sudo sh -c 'echo "deb http://pub.freerdp.com/repositories/deb/DIST/ freerdp-nightly main" >> /etc/apt/sources.list' && \
+sudo apt-get update -y && \
+sudo wget -O - http://pub.freerdp.com/repositories/ADD6BF6D97CE5D8D.asc | sudo apt-key add -
+```
 
 ## K8S
 - Setup Ubuntu 18.04 K8S HAProxy(Recommend use pfSene+HAProxy)
