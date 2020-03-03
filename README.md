@@ -133,8 +133,8 @@ sudo sh /tmp/Setup-USB-Over-Network-X86/setup.sh
 ```
 sudo add-apt-repository ppa:remmina-ppa-team/remmina-next-daily -y && \
 sudo sh -c 'echo "deb http://pub.freerdp.com/repositories/deb/DIST/ freerdp-nightly main" >> /etc/apt/sources.list' && \
-sudo apt-get update -y && \
-sudo wget -O - http://pub.freerdp.com/repositories/ADD6BF6D97CE5D8D.asc | sudo apt-key add -
+sudo wget -O - http://pub.freerdp.com/repositories/ADD6BF6D97CE5D8D.asc | sudo apt-key add - && \
+sudo apt-get update -y && sudo apt upgrade -y
 ```
 
 ## K8S
