@@ -132,6 +132,7 @@ sudo sh /tmp/Setup-USB-Over-Network-X86/setup.sh
 - Remmina & FreeRDP Nightly Update Channel
 ```
 sudo add-apt-repository ppa:remmina-ppa-team/remmina-next-daily -y && \
+sudo add-apt-repository ppa:remmina-ppa-team/freerdp-daily -y && \
 sudo sh -c 'echo "deb http://pub.freerdp.com/repositories/deb/DIST/ freerdp-nightly main" >> /etc/apt/sources.list' && \
 sudo wget -O - http://pub.freerdp.com/repositories/ADD6BF6D97CE5D8D.asc | sudo apt-key add - && \
 sudo apt-get update -y && sudo apt upgrade -y
