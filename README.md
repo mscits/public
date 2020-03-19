@@ -147,7 +147,7 @@ sudo apt-get update -y && sudo apt upgrade -y
 ```
 sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add - & \
 sudo echo "deb http://build.openvpn.net/debian/openvpn/stable bionic main" >> /etc/apt/sources.list & \
-sudo apt update -y && apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 ```
 
 ## K8S
