@@ -24,6 +24,14 @@ git clone https://github.com/mscits/mOS-18.04-X64-LTS-VPNmOS02.git /tmp/mOS-18.0
 chmod +x /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh && \
 sh /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh
 ```
+- CMD setup mOS 20.04 X64 LTS
+```
+apt install git -y && \
+rm -rf /tmp/mOS-20.04-X64-LTS/ && \
+git clone https://github.com/mscits/mOS-20.04-X64-LTS.git /tmp/mOS-20.04-X64-LTS/ && \
+chmod +x /tmp/mOS-20.04-X64-LTS/setup.sh && \
+sh /tmp/mOS-20.04-X64-LTS/setup.sh
+```
 
 ## DirectAdmin
 - Update DirectAdmin Configuration CentOS 7 LAB
