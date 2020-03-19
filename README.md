@@ -143,6 +143,12 @@ sudo add-apt-repository ppa:remmina-ppa-team/remmina-next-daily -y && \
 sudo add-apt-repository ppa:remmina-ppa-team/freerdp-daily -y && \
 sudo apt-get update -y && sudo apt upgrade -y
 ```
+- OpenVPN Client Fast Update Channel (Ubuntu 18.04)
+```
+sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add - & \
+sudo echo "deb http://build.openvpn.net/debian/openvpn/stable bionic main" >> /etc/apt/sources.list & \
+sudo apt update -y && apt upgrade -y
+```
 
 ## K8S
 - Setup Ubuntu 18.04 K8S HAProxy(Recommend use pfSene+HAProxy)
