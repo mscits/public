@@ -145,8 +145,8 @@ sudo apt-get update -y && sudo apt upgrade -y
 ```
 - OpenVPN Client Fast Update Channel (Ubuntu 18.04)
 ```
-sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add - & \
-sudo echo "deb http://build.openvpn.net/debian/openvpn/stable bionic main" >> /etc/apt/sources.list & \
+sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add - && \
+sudo echo "deb http://build.openvpn.net/debian/openvpn/stable bionic main" >> /etc/apt/sources.list && \
 sudo apt update -y && sudo apt upgrade -y
 ```
 
