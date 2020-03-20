@@ -85,13 +85,21 @@ update-grub && \
 sed -i '131s/Ubuntu/mOS-18.04-X64-LTS/' /boot/grub/grub.cfg && \
 sed -i '148s/Ubuntu/mOS-18.04-X64-LTS/' /boot/grub/grub.cfg
 ```
-- CMD Setup TeamViewer X64
+- CMD Setup TeamViewer15 X64
 ```
 apt install git -y && \
-rm -rf /tmp/Setup-TeamViewer-X64/ && \
-git clone https://github.com/mscits/Setup-TeamViewer-X64.git /tmp/Setup-TeamViewer-X64/ && \
-chmod +x /tmp/Setup-TeamViewer-X64/setup.sh && \
-sh /tmp/Setup-TeamViewer-X64/setup.sh
+rm -rf /tmp/Setup-TeamViewer15-X64/ && \
+git clone https://github.com/mscits/Setup-TeamViewer15-X64.git /tmp/Setup-TeamViewer15-X64/ && \
+chmod +x /tmp/Setup-TeamViewer15-X64/setup.sh && \
+sh /tmp/Setup-TeamViewer15-X64/setup.sh
+```
+- CMD Setup TeamViewer14 X64
+```
+apt install git -y && \
+rm -rf /tmp/Setup-TeamViewer14-X64/ && \
+git clone https://github.com/mscits/Setup-TeamViewer14-X64.git /tmp/Setup-TeamViewer14-X64/ && \
+chmod +x /tmp/Setup-TeamViewer14-X64/setup.sh && \
+sh /tmp/Setup-TeamViewer14-X64/setup.sh
 ```
 - CMD Setup VPN mOS 02
 ```
