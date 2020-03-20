@@ -121,7 +121,7 @@ sudo snap install barrier --edge && \
 echo '@/snap/bin/barrier %U' >> /home/mosuser/.config/lxsession/Lubuntu/autostart && \
 sudo reboot
 ```
-- Setup USB Over Network X64
+- Setup USB Over Network X64 (mOS 18.04 & Lubuntu 18.04)
 ```
 sudo apt install git -y && \
 sudo rm -rf /tmp/Setup-USB-Over-Network-X64/ && \
@@ -129,7 +129,7 @@ sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64.git /tmp/Set
 sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
 ```
-- Setup USB Over Network X86
+- Setup USB Over Network X86 (mOS 18.04 & Lubuntu 18.04)
 ```
 sudo apt install git -y && \
 sudo rm -rf /tmp/Setup-USB-Over-Network-X86/ && \
@@ -143,7 +143,7 @@ sudo add-apt-repository ppa:remmina-ppa-team/remmina-next-daily -y && \
 sudo add-apt-repository ppa:remmina-ppa-team/freerdp-daily -y && \
 sudo apt-get update -y && sudo apt upgrade -y
 ```
-- OpenVPN Client Fast Update Channel (Ubuntu 18.04)
+- OpenVPN Client Fast Update Channel (Ubuntu 18.04 Only)
 ```
 sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add - && \
 sudo echo "deb http://build.openvpn.net/debian/openvpn/stable bionic main" >> /etc/apt/sources.list && \
