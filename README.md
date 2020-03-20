@@ -101,13 +101,13 @@ git clone https://github.com/mscits/Setup-TeamViewer14-X64.git /tmp/Setup-TeamVi
 chmod +x /tmp/Setup-TeamViewer14-X64/setup.sh && \
 sh /tmp/Setup-TeamViewer14-X64/setup.sh
 ```
-- CMD Setup VPN mOS 02
+- CMD Setup VPN mOS 02 (mOS 18.04)
 ```
 apt install git -y && \
-rm -rf /tmp/Setup-VPNmOS02/ && \
-git clone https://github.com/mscits/Setup-VPNmOS02.git /tmp/Setup-VPNmOS02/ && \
-chmod +x /tmp/Setup-VPNmOS02/setup.sh && \
-sh /tmp/Setup-VPNmOS02/setup.sh
+rm -rf /tmp/Setup-VPNmOS02-mOS18.04/ && \
+git clone https://github.com/mscits/Setup-VPNmOS02-mOS18.04.git /tmp/Setup-VPNmOS02-mOS18.04/ && \
+chmod +x /tmp/Setup-VPNmOS02-mOS18.04/setup.sh && \
+sh /tmp/Setup-VPNmOS02-mOS18.04/setup.sh
 ```
 - CMD Setup AnyDesk X64
 ```
