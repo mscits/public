@@ -72,6 +72,7 @@ git clone https://github.com/mscits/Setup-Conky-mOS20.04.git /tmp/Setup-Conky-mO
 chmod +x /tmp/Setup-Conky-mOS20.04/setup.sh && \
 sh /tmp/Setup-Conky-mOS20.04/setup.sh
 ```
+`/usr/bin/conky -d -p 120 -c /home/mosuser/.conky/TeejeeTech/ProcessPanel`
 - Setup FortiClient Free Antivirus (Ubuntu 18.04 LTS)
 ```
 wget -O - https://repo.fortinet.com/repo/ubuntu/DEB-GPG-KEY | sudo apt-key add - && \
