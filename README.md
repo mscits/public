@@ -32,7 +32,7 @@ git clone https://github.com/mscits/mOS-20.04-X64-LTS.git /tmp/mOS-20.04-X64-LTS
 chmod +x /tmp/mOS-20.04-X64-LTS/setup.sh && \
 sh /tmp/mOS-20.04-X64-LTS/setup.sh
 ```
-
+---
 ## DirectAdmin
 - Update DirectAdmin Configuration CentOS 7 LAB
 ```
@@ -50,7 +50,7 @@ git clone https://github.com/mscits/Update-DA-Configuration-CentOS7-Production.g
 chmod +x /tmp/Update-DA-Configuration-CentOS7-Production/setup.sh && \
 sh /tmp/Update-DA-Configuration-CentOS7-Production/setup.sh
 ```
-
+---
 ## mOS & Ubuntu
 - Update mOS
 ```
@@ -149,18 +149,18 @@ sudo reboot
 - Setup USB Over Network X64 (mOS 18.04 & Lubuntu 18.04)
 ```
 sudo apt install git -y && \
-sudo rm -rf /tmp/Setup-USB-Over-Network-X64/ && \
-sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64.git /tmp/Setup-USB-Over-Network-X64/ && \
-sudo chmod +x /tmp/Setup-USB-Over-Network-X64/setup.sh && \
-sudo sh /tmp/Setup-USB-Over-Network-X64/setup.sh
+sudo rm -rf /tmp/Setup-USB-Over-Network-X64-mOS18.04/ && \
+sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64-mOS18.04.git /tmp/Setup-USB-Over-Network-X64-mOS18.04/ && \
+sudo chmod +x /tmp/Setup-USB-Over-Network-X64-mOS18.04/setup.sh && \
+sudo sh /tmp/Setup-USB-Over-Network-X64-mOS18.04/setup.sh
 ```
 - Setup USB Over Network X86 (mOS 18.04 & Lubuntu 18.04)
 ```
 sudo apt install git -y && \
-sudo rm -rf /tmp/Setup-USB-Over-Network-X86/ && \
-sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X86.git /tmp/Setup-USB-Over-Network-X86/ && \
-sudo chmod +x /tmp/Setup-USB-Over-Network-X86/setup.sh && \
-sudo sh /tmp/Setup-USB-Over-Network-X86/setup.sh
+sudo rm -rf /tmp/Setup-USB-Over-Network-X86-mOS18.04/ && \
+sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X86-mOS18.04.git /tmp/Setup-USB-Over-Network-X86-mOS18.04/ && \
+sudo chmod +x /tmp/Setup-USB-Over-Network-X86-mOS18.04/setup.sh && \
+sudo sh /tmp/Setup-USB-Over-Network-X86-mOS18.04/setup.sh
 ```
 - Remmina & FreeRDP Nightly Update Channel
 ```
@@ -174,7 +174,7 @@ sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add 
 sudo echo "deb http://build.openvpn.net/debian/openvpn/stable bionic main" >> /etc/apt/sources.list && \
 sudo apt update -y && sudo apt upgrade -y
 ```
-
+---
 ## K8S
 - Setup Ubuntu 18.04 K8S HAProxy(Recommend use pfSene+HAProxy)
 ```
