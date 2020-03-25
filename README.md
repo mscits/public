@@ -109,6 +109,14 @@ git clone https://github.com/mscits/Setup-VPNmOS02-mOS18.04.git /tmp/Setup-VPNmO
 chmod +x /tmp/Setup-VPNmOS02-mOS18.04/setup.sh && \
 sh /tmp/Setup-VPNmOS02-mOS18.04/setup.sh
 ```
+- CMD Setup VPN mOS 02 (mOS 20.04)
+```
+apt install git -y && \
+rm -rf /tmp/Setup-VPNmOS02-mOS20.04/ && \
+git clone https://github.com/mscits/Setup-VPNmOS02-mOS20.04.git /tmp/Setup-VPNmOS02-mOS20.04/ && \
+chmod +x /tmp/Setup-VPNmOS02-mOS20.04/setup.sh && \
+sh /tmp/Setup-VPNmOS02-mOS20.04/setup.sh
+```
 - CMD Setup AnyDesk X64
 ```
 apt install git -y && \
