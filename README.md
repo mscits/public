@@ -56,7 +56,7 @@ sh /tmp/Update-DA-Configuration-CentOS7-Production/setup.sh
 ```
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 ```
-- Setup Conky
+- Setup Conky (mOS 18.04 & Lubuntu 18.04)
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-Conky/ && \
@@ -101,7 +101,7 @@ git clone https://github.com/mscits/Setup-TeamViewer14-X64.git /tmp/Setup-TeamVi
 chmod +x /tmp/Setup-TeamViewer14-X64/setup.sh && \
 sh /tmp/Setup-TeamViewer14-X64/setup.sh
 ```
-- CMD Setup VPN mOS 02 (mOS 18.04)
+- CMD Setup VPN mOS 02 (mOS 18.04 & Lubuntu 18.04)
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-VPNmOS02-mOS18.04/ && \
@@ -109,7 +109,7 @@ git clone https://github.com/mscits/Setup-VPNmOS02-mOS18.04.git /tmp/Setup-VPNmO
 chmod +x /tmp/Setup-VPNmOS02-mOS18.04/setup.sh && \
 sh /tmp/Setup-VPNmOS02-mOS18.04/setup.sh
 ```
-- CMD Setup VPN mOS 02 (mOS 20.04)
+- CMD Setup VPN mOS 02 (mOS 20.04 & Ubuntu 20.04)
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-VPNmOS02-mOS20.04/ && \
