@@ -59,10 +59,18 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 - Setup Conky (mOS 18.04 & Lubuntu 18.04)
 ```
 apt install git -y && \
-rm -rf /tmp/Setup-Conky/ && \
-git clone https://github.com/mscits/Setup-Conky.git /tmp/Setup-Conky/ && \
-chmod +x /tmp/Setup-Conky/setup.sh && \
-sh /tmp/Setup-Conky/setup.sh
+rm -rf /tmp/Setup-Conky-mOS18.04/ && \
+git clone https://github.com/mscits/Setup-Conky-mOS18.04.git /tmp/Setup-Conky-mOS18.04/ && \
+chmod +x /tmp/Setup-Conky-mOS18.04/setup.sh && \
+sh /tmp/Setup-Conky-mOS18.04/setup.sh
+```
+- Setup Conky (mOS 20.04 & Ubuntu 20.04)
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Conky-mOS20.04/ && \
+git clone https://github.com/mscits/Setup-Conky-mOS20.04.git /tmp/Setup-Conky-mOS20.04/ && \
+chmod +x /tmp/Setup-Conky-mOS20.04/setup.sh && \
+sh /tmp/Setup-Conky-mOS20.04/setup.sh
 ```
 - Setup FortiClient Free Antivirus (Ubuntu 18.04 LTS)
 ```
