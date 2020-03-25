@@ -162,7 +162,7 @@ sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X86-mOS18.04.git
 sudo chmod +x /tmp/Setup-USB-Over-Network-X86-mOS18.04/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X86-mOS18.04/setup.sh
 ```
-- Setup USB Over Network X64 (mOS 20.04 & Lubuntu 20.04)
+- Setup USB Over Network X64 (mOS 20.04 & Ubuntu 20.04)
 ```
 sudo apt install git -y && \
 sudo rm -rf /tmp/Setup-USB-Over-Network-X64-mOS20.04/ && \
