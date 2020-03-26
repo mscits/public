@@ -182,6 +182,12 @@ sudo wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg | apt-key add 
 sudo echo "deb http://build.openvpn.net/debian/openvpn/stable bionic main" >> /etc/apt/sources.list && \
 sudo apt update -y && sudo apt upgrade -y
 ```
+- Setup indicator-ip (mOS 20.04 & Ubuntu 20.04)
+```
+sudo apt-add-repository ppa:bovender/bovender -y
+sudo apt update -y
+sudo apt install indicator-ip -y
+```
 ---
 ## K8S
 - Setup Ubuntu 18.04 K8S HAProxy(Recommend use pfSene+HAProxy)
