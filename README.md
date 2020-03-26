@@ -184,8 +184,8 @@ sudo apt update -y && sudo apt upgrade -y
 ```
 - Setup indicator-ip (mOS 20.04 & Ubuntu 20.04)
 ```
-sudo apt-add-repository ppa:bovender/bovender -y
-sudo apt update -y
+sudo apt-add-repository ppa:bovender/bovender -y && \
+sudo apt update -y && \
 sudo apt install indicator-ip -y
 ```
 ---
