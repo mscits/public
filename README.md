@@ -26,7 +26,7 @@ sh /tmp/mOS-18.04-X64-LTS-VPNmOS02/setup.sh
 ```
 - CMD setup mOS 20.04 X64 LTS
 ```
-sed -i 's/\/th.archive.ubuntu.com/\/mirror1.totbb.net/g' /etc/apt/sources.list && \
+apt update -y && \
 apt install git -y && \
 rm -rf /tmp/mOS-20.04-X64-LTS/ && \
 git clone https://github.com/mscits/mOS-20.04-X64-LTS.git /tmp/mOS-20.04-X64-LTS/ && \
