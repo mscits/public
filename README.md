@@ -179,6 +179,14 @@ sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64-mOS20.04.git
 sudo chmod +x /tmp/Setup-USB-Over-Network-X64-mOS20.04/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64-mOS20.04/setup.sh
 ```
+- Setup Citrix Workspace (mOS 20.04 & Ubuntu 20.04)
+```
+sudo apt install git -y && \
+sudo rm -rf /tmp/Setup-Citrix-Workspace-X64-mOS20.04/ && \
+sudo git clone https://github.com/mscits/Setup-Citrix-Workspace-X64-mOS20.04.git /tmp/Setup-Citrix-Workspace-X64-mOS20.04/ && \
+sudo chmod +x /tmp/Setup-Citrix-Workspace-X64-mOS20.04/setup.sh && \
+sudo sh /tmp/Setup-Citrix-Workspace-X64-mOS20.04/setup.sh
+```
 - Remmina & FreeRDP Nightly Update Channel
 ```
 sudo add-apt-repository ppa:remmina-ppa-team/remmina-next-daily -y && \
