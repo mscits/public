@@ -179,6 +179,14 @@ sudo git clone https://github.com/mscits/Setup-USB-Over-Network-X64-mOS20.04.git
 sudo chmod +x /tmp/Setup-USB-Over-Network-X64-mOS20.04/setup.sh && \
 sudo sh /tmp/Setup-USB-Over-Network-X64-mOS20.04/setup.sh
 ```
+- Setup CA(Root Cert) (mOS 20.04 & Ubuntu 20.04)
+```
+sudo apt install git -y && \
+sudo rm -rf /tmp/Setup-CA-mOS20.04/ && \
+sudo git clone https://github.com/mscits/Setup-CA-mOS20.04.git /tmp/Setup-CA-mOS20.04/ && \
+sudo chmod +x /tmp/Setup-CA-mOS20.04/setup.sh && \
+sudo sh /tmp/Setup-CA-mOS20.04/setup.sh
+```
 - Setup Citrix Workspace (mOS 20.04 & Ubuntu 20.04)
 ```
 sudo apt install git -y && \
