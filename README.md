@@ -1,3 +1,7 @@
+## Change mirror Ubuntu 18.04 & 20.04
+```
+sudo sed -i 's/\/th.archive.ubuntu.com/\/mirror1.totbb.net/g' /etc/apt/sources.list
+```
 ## UEFI mode require 64 bit OS
 
 - CMD setup mOS 18.04 X64 LTS
