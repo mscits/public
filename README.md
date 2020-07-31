@@ -1,6 +1,23 @@
-## Change mirror Ubuntu 18.04 & 20.04
+## Ubuntu Series
+- Change mirror Ubuntu 18.04 & 20.04
 ```
 sudo sed -i 's/\/th.archive.ubuntu.com/\/mirror1.totbb.net/g' /etc/apt/sources.list
+```
+- Install Docker
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Ubuntu20.04-Docker/ && \
+git clone https://github.com/mscits/Setup-Ubuntu20.04-Docker.git /tmp/Setup-Ubuntu20.04-Docker/ && \
+chmod +x /tmp/Setup-Ubuntu20.04-Docker/setup.sh && \
+sh /tmp/Setup-Ubuntu20.04-Docker/setup.sh
+```
+- Install Portainer
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Ubuntu20.04-Portainer/ && \
+git clone https://github.com/mscits/Setup-Ubuntu20.04-Portainer.git /tmp/Setup-Ubuntu20.04-Portainer/ && \
+chmod +x /tmp/Setup-Ubuntu20.04-Portainer/setup.sh && \
+sh /tmp/Setup-Ubuntu20.04-Portainer/setup.sh
 ```
 ## UEFI mode require 64 bit OS
 
