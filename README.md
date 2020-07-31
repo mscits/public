@@ -3,7 +3,7 @@
 ```
 sudo sed -i 's/\/th.archive.ubuntu.com/\/mirror1.totbb.net/g' /etc/apt/sources.list
 ```
-- Install Docker
+- Install Docker & Static IP
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-Ubuntu20.04-Docker/ && \
@@ -11,7 +11,7 @@ git clone https://github.com/mscits/Setup-Ubuntu20.04-Docker.git /tmp/Setup-Ubun
 chmod +x /tmp/Setup-Ubuntu20.04-Docker/setup.sh && \
 sh /tmp/Setup-Ubuntu20.04-Docker/setup.sh
 ```
-- Install Portainer
+- Install Portainer & Static IP
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-Ubuntu20.04-Portainer/ && \
