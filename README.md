@@ -11,6 +11,14 @@ git clone https://github.com/mscits/Setup-Ubuntu20.04-Docker.git /tmp/Setup-Ubun
 chmod +x /tmp/Setup-Ubuntu20.04-Docker/setup.sh && \
 sh /tmp/Setup-Ubuntu20.04-Docker/setup.sh
 ```
+- Install Docker & Portainer Agent & Static IP
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Ubuntu20.04-Docker-PortainerAgent/ && \
+git clone https://github.com/mscits/Setup-Ubuntu20.04-Docker-PortainerAgent.git /tmp/Setup-Ubuntu20.04-Docker-PortainerAgent/ && \
+chmod +x /tmp/Setup-Ubuntu20.04-Docker-PortainerAgent/setup.sh && \
+sh /tmp/Setup-Ubuntu20.04-Docker-PortainerAgent/setup.sh
+```
 - Install Portainer & Static IP
 ```
 apt install git -y && \
