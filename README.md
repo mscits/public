@@ -3,6 +3,14 @@
 ```
 sudo sed -i 's/\/th.archive.ubuntu.com/\/mirror1.totbb.net/g' /etc/apt/sources.list
 ```
+- Install Ubuntu 20.04
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Ubuntu20.04/ && \
+git clone https://github.com/mscits/Setup-Ubuntu20.04.git /tmp/Setup-Ubuntu20.04/ && \
+chmod +x /tmp/Setup-Ubuntu20.04/setup.sh && \
+sh /tmp/Setup-Ubuntu20.04/setup.sh
+```
 - Install Docker & Static IP
 ```
 apt install git -y && \
