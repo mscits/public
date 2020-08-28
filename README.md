@@ -11,6 +11,14 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04.git /tmp/Setup-Ubuntu18.04
 chmod +x /tmp/Setup-Ubuntu18.04/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04/setup.sh
 ```
+- Install Ubuntu 18.04 Zimbra
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Ubuntu18.04-Zimbra/ && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra.git /tmp/Setup-Ubuntu18.04-Zimbra/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-Zimbra/setup.sh && \
+sh /tmp/Setup-Ubuntu18.04-Zimbra/setup.sh
+```
 - Install Ubuntu 20.04
 ```
 apt install git -y && \
