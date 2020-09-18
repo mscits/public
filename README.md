@@ -11,15 +11,7 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04.git /tmp/Setup-Ubuntu18.04
 chmod +x /tmp/Setup-Ubuntu18.04/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04/setup.sh
 ```
-- Install Ubuntu 18.04 Zimbra
-```
-apt install git -y && \
-rm -rf /tmp/Setup-Ubuntu18.04-Zimbra/ && \
-git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra.git /tmp/Setup-Ubuntu18.04-Zimbra/ && \
-chmod +x /tmp/Setup-Ubuntu18.04-Zimbra/setup.sh && \
-sh /tmp/Setup-Ubuntu18.04-Zimbra/setup.sh
-```
-- Install Ubuntu 18.04 Zimbra Install
+- Install Ubuntu 18.04 Zimbra LDAP
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-Install/ && \
@@ -27,7 +19,15 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Install.git /tmp/Se
 chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-Install/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04-Zimbra-Install/setup.sh
 ```
-- Install Ubuntu 18.04 Zimbra Post Install
+- Install Ubuntu 18.04 Zimbra Additional
+```
+apt install git -y && \
+rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-Additional/ && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Additional.git /tmp/Setup-Ubuntu18.04-Zimbra-Additional/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh && \
+sh /tmp/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh
+```
+- Install Ubuntu 18.04 Zimbra Logger
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-Post-Install/ && \
