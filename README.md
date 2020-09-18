@@ -14,10 +14,10 @@ sh /tmp/Setup-Ubuntu18.04/setup.sh
 - Install Ubuntu 18.04 Zimbra LDAP
 ```
 apt install git -y && \
-rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-Install/ && \
-git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Install.git /tmp/Setup-Ubuntu18.04-Zimbra-Install/ && \
-chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-Install/setup.sh && \
-sh /tmp/Setup-Ubuntu18.04-Zimbra-Install/setup.sh
+rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/ && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-LDAP.git /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/ && \
+chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/setup.sh && \
+sh /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/setup.sh
 ```
 - Install Ubuntu 18.04 Zimbra Additional
 ```
