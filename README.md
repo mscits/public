@@ -11,7 +11,7 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04.git /tmp/Setup-Ubuntu18.04
 chmod +x /tmp/Setup-Ubuntu18.04/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04/setup.sh
 ```
-- Install Ubuntu 18.04 Zimbra LDAP
+- Install Ubuntu 18.04 Zimbra LDAP (First Server)
 ```
 apt install git -y && \
 rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/ && \
