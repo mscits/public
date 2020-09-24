@@ -27,14 +27,6 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Additional.git /tmp
 chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh && \
 sh /tmp/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh
 ```
-- Install Ubuntu 18.04 Zimbra Logger
-```
-apt install git -y && \
-rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-Post-Install/ && \
-git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Post-Install.git /tmp/Setup-Ubuntu18.04-Zimbra-Post-Install/ && \
-chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-Post-Install/setup.sh && \
-sh /tmp/Setup-Ubuntu18.04-Zimbra-Post-Install/setup.sh
-```
 - Install Ubuntu 20.04
 ```
 apt install git -y && \
