@@ -14,18 +14,18 @@ sh /tmp/Setup-Ubuntu18.04/setup.sh
 - Install Ubuntu 18.04 Zimbra LDAP (First Server)
 ```
 apt install git -y && \
-rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/ && \
-git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-LDAP.git /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/ && \
-chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/setup.sh && \
-sh /tmp/Setup-Ubuntu18.04-Zimbra-LDAP/setup.sh
+rm -rf /opt/Setup-Ubuntu18.04-Zimbra-LDAP/ && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-LDAP.git /opt/Setup-Ubuntu18.04-Zimbra-LDAP/ && \
+chmod +x /opt/Setup-Ubuntu18.04-Zimbra-LDAP/setup.sh && \
+sh /opt/Setup-Ubuntu18.04-Zimbra-LDAP/setup.sh
 ```
 - Install Ubuntu 18.04 Zimbra Additional
 ```
 apt install git -y && \
-rm -rf /tmp/Setup-Ubuntu18.04-Zimbra-Additional/ && \
-git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Additional.git /tmp/Setup-Ubuntu18.04-Zimbra-Additional/ && \
-chmod +x /tmp/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh && \
-sh /tmp/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh
+rm -rf /opt/Setup-Ubuntu18.04-Zimbra-Additional/ && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Additional.git /opt/Setup-Ubuntu18.04-Zimbra-Additional/ && \
+chmod +x /opt/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh && \
+sh /opt/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh
 ```
 - Install Ubuntu 20.04
 ```
