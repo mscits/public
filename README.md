@@ -27,6 +27,14 @@ git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-Additional.git /opt
 chmod +x /opt/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh && \
 sh /opt/Setup-Ubuntu18.04-Zimbra-Additional/setup.sh
 ```
+- Install Ubuntu 18.04 Zimbra AIO
+```
+apt install git -y && \
+rm -rf /opt/Setup-Ubuntu18.04-Zimbra-AIO/ && \
+git clone https://github.com/mscits/Setup-Ubuntu18.04-Zimbra-AIO.git /opt/Setup-Ubuntu18.04-Zimbra-AIO/ && \
+chmod +x /opt/Setup-Ubuntu18.04-Zimbra-AIO/setup.sh && \
+sh /opt/Setup-Ubuntu18.04-Zimbra-AIO/setup.sh
+```
 - Install Ubuntu 20.04
 ```
 apt install git -y && \
